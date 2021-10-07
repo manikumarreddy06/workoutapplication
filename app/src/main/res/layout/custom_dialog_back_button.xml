@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Are you sure"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="you're about to quit your workout session..All of your progress will be lost"
+        android:textColor="#AE2F66"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnyes"
+        android:layout_width="0dp"
+        android:text="Confirm"
+        android:textSize="20sp"
+        android:layout_height="60dp"
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnno"
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:text="Dont"
+            android:textSize="20sp"
+            android:layout_height="60dp"
+            android:layout_weight="1"/>
+
+    
+</LinearLayout>
+
+
+</LinearLayout>
