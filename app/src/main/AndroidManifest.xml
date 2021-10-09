@@ -11,7 +11,8 @@
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".MetabolicActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" ></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="BMI CALCULATOR"></activity>
         <activity
             android:name=".com.myproject.myapplication.ExerciseActivity"
             android:screenOrientation="portrait"
